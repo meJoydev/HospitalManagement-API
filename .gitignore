@@ -1,0 +1,52 @@
+## .NET gitignore
+
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet packages
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# User specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+
+# Visual Studio 2022
+.vs/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww]in32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Secrets and local settings
+appsettings.Development.json
+*.pfx
+*.p12
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
